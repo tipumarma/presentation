@@ -1,0 +1,131 @@
+@font-face{
+	font-family: Muli-Regular;
+	src: url(../fonts/Muli-Regular.ttf);
+}
+
+body{
+	color: #042043!important;
+	font-family: Muli-Regular;
+	font-size: 16px;
+}
+/*header starts*/
+header{
+	background-image: url(../img/b_img.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.nav{
+	padding-top: 20px;
+}
+.menu a{
+	font-size: 16px;
+	font-weight: 550;
+	padding:0 25px !important;
+	color: white !important;
+	border-radius: 15px;
+}
+.menu a:hover{
+	background-color: blue;
+	border-radius: 25px;
+}
+.menu a:last-child{
+	padding: 0 !important;
+	position: absolute;
+	right: 1px !important;
+}
+.btn-white {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(246 247 251);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+.first{
+	padding-top: 100px;
+	padding-bottom: 90px;
+}
+.h_text{}
+.h_text h1{
+	color: #ffffff;
+	font-size: 88px;
+}
+.text2{
+	padding-top: 15px;
+}
+.p_text p{
+	color: #ffffff;
+    font-size: 15px;
+}
+.l_more{
+	padding-top: 15px;
+}
+.l_more button:hover {
+         background-color: blue;
+} 
+/*header ends*/
+/*services starts*/
+.s_text p{
+	margin-top: -15px;
+	color: #2db0e6;
+}
+.s2_text h2{
+	font-size: 33px;
+	color: #062353;
+}
+.s3_text p{
+	font-size: 18px;
+	color: #062353;
+}
+.service{
+	padding-top: 100px;
+	padding-bottom: 90px;
+}
+/*second row starts*/
+.m_t_90{
+	padding-top: 90px;
+}
+.single{
+	background-color: #03122c;
+
+}
+.icon{
+	padding-top: 60px;
+}
+.icon img{}
+.i_title{
+	color: #ffffff;
+	margin-top: 20px;
+}
+.i_p_text{
+	margin-top: 15px;
+}
+.i_p_text p{
+	color: #ffffff;
+	padding: 0 15px;
+	font-size: 17px;
+}
+.learn_more a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.all_services{
+	margin-top: 90px;
+}
+/*services ends*/
+/*choice starts*/
+.choice{
+	padding-top: 100px;
+	padding-bottom: 90px;
+	background-color: #fdfbfa;
+}
+.c_text{
+	padding: 150px 0;
+}
+/*choice ends*/
